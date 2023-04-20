@@ -14,17 +14,6 @@ values (4, 'Anchorman');
 insert into movie (movie_id, movie_name) 
 values (5, 'Pink Panther');
 
-insert into ticket (movie_id, ticket_price)
-values(1, 9.99);
-insert into ticket (movie_id, ticket_price)
-values(2, 9.99);
-insert into ticket (movie_id, ticket_price)
-values(3, 5.99);
-insert into ticket (movie_id, ticket_price)
-values(4, 14.99);
-insert into ticket (movie_id, ticket_price)
-values(5, 19.99);
-
 insert into ticket (ticket_price, movie_id)
 values (9.99, 4);
 insert into ticket (ticket_price, movie_id)
@@ -49,19 +38,6 @@ insert into customer (ticket_id, concession_id)
 values(4, 2);
 insert into customer (ticket_id, concession_id)
 values(5, 1);
-
-select * from customer
-
-
-
-
-delete from concessions 
-where 
-
-
-insert into ticket ()
-
-select * from ticket
 
 select * 
 from movie;
